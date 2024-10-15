@@ -11,7 +11,10 @@ public class Main {
 
         System.out.println("Ф. И. О. сотрудника — " + fullName);
 
-        //task2
+        //task2 (CORRECT SOLUTION)
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+
+        //task2(uncorrect solution)
         String[] names = fullName.split(" ");
         String result = "";
         for (String name : names){
@@ -19,6 +22,7 @@ public class Main {
         }
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + result.trim());
         System.out.print("\n");
+
 
         //task 3
         fullName = "Иванов Семён Семёнович";

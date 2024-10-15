@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         //task1
-        String firstName = "Дмитрий";
-        String middleName = "Захаров";
-        String lastName = "Сергеевич";
-        String fullName = "захаров дмитрий сергеевич";
+        String firstName = "дмитрий";
+        String middleName = "захаров";
+        String lastName = "сергеевич";
+        String fullName = middleName + " " + firstName + " " + lastName;
 
         System.out.println("Ф. И. О. сотрудника — " + fullName);
 
